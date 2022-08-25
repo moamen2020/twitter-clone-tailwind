@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="dist.css" />
+  </head>
+  <body class="dark:bg-dim-900">
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+      <!-- Left -->
+      <div class="xl:w-1/5 xl:pr-4 flex flex-col h-full w-20">
+        <!-- Logo -->
+        <a
+          href="#"
+          class="flex justify-center items-center text-blue-400 xl:justify-start my-2"
+        >
+          <i class="fa-brands fa-twitter text-4xl"></i>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="mt-5">
+          <a
+            href=""
+            class="flex justify-center items-center text-blue-400 xl:justify-start mb-4"
+          >
+            <i class="fa-solid fa-house text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Home</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-hashtag text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Explore</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-bell text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Notifications</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-envelope text-xl"></i>
+
+            <span class="hidden xl:block xl:ml-4 font-bold">Messages</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-bookmark text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Bookmarks</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-list-ul text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Lists</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-user text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">Profile</span>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center xl:justify-start text-gray-800 dark:text-white hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out mb-4"
+          >
+            <i class="fa-solid fa-ellipsis text-xl"></i>
+            <span class="hidden xl:block xl:ml-4 font-bold">More</span>
+          </a>
+        </nav>
+
+        <!-- Button -->
+        <a
+          href=""
+          class="mx-auto w-11 h-11 xl:w-full flex items-center justify-center bg-blue-400 rounded-full text-white font-bold"
+        >
+          <i class="fa-solid fa-feather text-xl block xl:hidden"></i>
+          <span class="hidden xl:block xl:ml-0 font-bold">Tweet</span>
+        </a>
+
+        <!-- user -->
+        <div
+          class="w-14 xl:w-full mt-auto flex justify-between mb-2 rounded-full p-2 cursor-pointer"
+        >
+          <img
+            src="https://pbs.twimg.com/profile_images/1444753598328496128/hCCopfyz_400x400.jpg"
+            class="w-10 h-10 rounded-full"
+            alt=""
+          />
+          <div class="hidden xl:flex flex-col">
+            <h4 class="text-gray-800 dark:text-white font-bold text-sm">
+              Moamen Omar
+            </h4>
+            <p class="text-gray-400 text-sm">moamen@gmail.com</p>
+          </div>
+          <i
+            class="fa-solid fa-chevron-down text-xs hidden xl:flex items-center xl:ml-4 text-gray-800 dark:text-white"
+          >
+          </i>
+        </div>
+      </div>
+
+      <!-- Middle -->
+      <div class="w-full xl:w-1/2 h-screen overflow-y-auto">
+        <!-- Sticky Header -->
+        <div
+          class="flex justify-between items-center border px-4 py-3 sticky top-0 bg-white dark:bg-dim-900 border-gray-200 dark:border-gray-700"
+        >
+          <h4 class="text-gray-800 dark:text-gray-100 font-bold">Home</h4>
+          <i class="fa-brands fa-twitter text-lg text-blue-400"></i>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="hidden xl:block w-[30%]"></div>
+    </div>
+  </body>
+</html>
